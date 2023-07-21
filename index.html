@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mini-Blog</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Mini-Blog Test</h1>
+    <h3>Liste des articles :</h3>
+    <table id="list_article" class="article">
+    <tr>
+        <th>Hauteur(userId)</th>
+        <th>Titre</th>
+    </tr>
+    <tbody>
+        
+    </tbody>
+</table>
+<div id="user-info" style="display:none">
+    <h3>Informations de l'hauteur choisi :</h3>
+  <table id="user-info-data" >
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Article Website</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>  
+</div>
+
+<div id="post-info" style="display:none">
+    <h3>Detail de l'article choisi :</h3>
+    <table id="post-info-table" >
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Post</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    
+</table>
+<h3>Commentaires associes a l'article choisi :</h3>
+<ul id="post-comments" class="details">
+   
+  </ul>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

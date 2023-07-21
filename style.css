@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+    height: 45px;
+  }
+  th{
+    background-color: #b3b3ef;
+  }
+  #list_article td{
+    cursor: pointer;
+  }
+  h1{
+    text-align: center;
+}
